@@ -1,0 +1,40 @@
+@tailwind base;
+
+@layer base {
+  * {
+    /* outline-style: solid; */
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+}
+
+@tailwind components;
+
+@layer components {
+  .btn-primary {
+    @apply bg-black text-white px-5 py-2 rounded-full flex items-center gap-2;
+  }
+
+  .card {
+    @apply border w-80 h-auto pl-7 py-7 rounded-xl mt-10;
+  }
+
+  /* .list-image-checkmark {
+    @apply fill-primary;
+  } */
+}
+
+@tailwind utilities;
+
+//font-family: 'Forum', cursive;
+//font-family: 'Poppins', sans-serif;
+
+/* body {
+  font-family: "Poppins", sans-serif;
+} */
