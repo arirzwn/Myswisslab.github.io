@@ -435,7 +435,7 @@ video {
 }
 
 * {
-  /* outline-style: solid; */
+  outline-style: solid;
 }
 
 body {
