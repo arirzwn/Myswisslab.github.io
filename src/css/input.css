@@ -2,7 +2,7 @@
 
 @layer base {
   * {
-    /* outline-style: solid; */
+    outline-style: solid;
   }
 
   body {
