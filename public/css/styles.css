@@ -706,6 +706,10 @@ h1 {
   margin-bottom: 9rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-7 {
   margin-bottom: 1.75rem;
 }
@@ -760,10 +764,6 @@ h1 {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .block {
@@ -830,20 +830,16 @@ h1 {
   height: 27rem;
 }
 
+.h-\[28rem\] {
+  height: 28rem;
+}
+
 .h-\[2px\] {
   height: 2px;
 }
 
-.h-\[30rem\] {
-  height: 30rem;
-}
-
 .h-full {
   height: 100%;
-}
-
-.h-\[28rem\] {
-  height: 28rem;
 }
 
 .w-10 {
@@ -993,10 +989,6 @@ h1 {
   gap: 2rem;
 }
 
-.gap-y-4 {
-  row-gap: 1rem;
-}
-
 .gap-y-2 {
   row-gap: 0.5rem;
 }
@@ -1017,10 +1009,6 @@ h1 {
 
 .scroll-smooth {
   scroll-behavior: smooth;
-}
-
-.text-clip {
-  text-overflow: clip;
 }
 
 .rounded-full {
@@ -1088,19 +1076,14 @@ h1 {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-slate-400 {
+.bg-slate-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .fill-primary {
@@ -1202,11 +1185,6 @@ h1 {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-black {
